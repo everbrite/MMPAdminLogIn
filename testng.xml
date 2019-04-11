@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" verbose="5">
+<parameter name="url" value="http://96.84.175.78/MMP-Release2-Admin-Build.2.1.000/login.php"></parameter>
+<parameter name="userid" value="sgkotaru@gmail.com"></parameter>
+<parameter name="password" value="Iamblessed444"></parameter>
+<parameter name="expectedurl" value="http://96.84.175.78/MMP-Release2-Admin-Build.2.1.000/index.php"></parameter> 
+<parameter name="pname" value="Amethyst"></parameter>
+<parameter name="name" value="Amethyst"></parameter>
+<parameter name="doctorName" value="Beth"></parameter>
+<parameter name="ApptMonthDay" value="21"></parameter>
+<parameter name="ApptDayHour" value="10Am"></parameter>
+<parameter name="symptoms" value="Iam joyful"></parameter>
+<parameter name="patientName" value="Mohini"></parameter>
+
+
+  <test name="Test">
+    <classes>
+      <class name="adminLogin.AdminLogInTestCase"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
+  
+ 
+
+
+
+
+
+
+
+
+
